@@ -18,7 +18,7 @@ https://sareacct91.github.io/Horiseon-Social-Solution-Services/
 
 The final look of the webpage with all the semantic HTML elements and the correct usage of CSS selectors.
 
-![alt text](Assets/images/screenshot.jpg)
+![alt text](Assets/images/screenshot-page.jpg)
 
 ## Features
 
