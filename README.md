@@ -6,6 +6,7 @@ This project demonstrates the importance of accessibility in a webpage with
 
     The use of semantic HTML elements in the source code
     The alternate text to an image in a webpage
+    Consolidation of CSS selectors for element using the same styling
     A descriptive title for the webpage
 
 ## Installation
@@ -25,4 +26,5 @@ The final look of the webpage with all the semantic HTML elements and the correc
     Navigate the webpage using links in the navigation bar.
     The correct usage of semantic HTML elements
     Alternate description to the image
+    Consolidated CSS selectors
     Descriptive webpage title
