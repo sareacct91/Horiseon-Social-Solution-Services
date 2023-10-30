@@ -10,16 +10,13 @@ body {
     background-color: #d9dcd6;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
+/* styling for all texts inside the paragraph element */
 p {
     font-size: 16px;
 }
 
-/* Title and navigation bar */
+/* Title */
+/* styling for the title */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,15 +24,18 @@ header {
     color: #ffffff;
 }
 
+/* styling for the main heading of the webpage */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* styling for "seo" in the main heading of the webpage */
 header h1 strong {
     color: #d9dcd6;
 }
 
+/* Navigation bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,6 +49,12 @@ header nav ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
+}
+
+/* styling for the link in the navigation bar */
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /* Class Selector */
@@ -70,6 +76,7 @@ header nav ul li {
     margin-left: 20px;
 }
 
+/* alignment for images inside the main content section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -90,72 +97,16 @@ header nav ul li {
     color: #ffffff;
 }
 
-/* Consolidated into line above
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
+/* styling for images inside the main content section */
 .content img {
     max-height: 200px;
 }
 
-/* Consolidated into line above
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
-
-
+/* styling for headings inside the main content section */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/* Consolidated into line above
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
 
 /* Aside section */
 .benefits {
@@ -169,74 +120,26 @@ header nav ul li {
     background-color: #2589bd;
 }
 
+/* styling for texts inside aside section */
 .benefits article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Consolidated into line above
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
+/* styling for headings inside the aside section */
 .benefits article h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Consolidated into line above
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
+/* styling for images inside the aside section */
 .benefits article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Consolidated into line above
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
-
+/* footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -244,6 +147,7 @@ header nav ul li {
     text-align: center;
 }
 
+/* styling for header inside the footer section */
 .footer h2 {
     font-size: 20px;
 }
